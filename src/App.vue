@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <div>hello</div>
+  <div>
+    <Hello />
+  </div>
 </template>
 
 <style>
