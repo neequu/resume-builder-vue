@@ -1,10 +1,12 @@
 <script setup lang="ts">
+// import { computed } from 'vue';
 
+const name = computed(() => 'hello'.toUpperCase())
 </script>
 
 <template>
   <div>
-    sdf
+    {{ name }}
   </div>
 </template>
 
