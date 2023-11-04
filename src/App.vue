@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import Editor from './components/Editor.vue';
+import Resume from './components/Resume.vue';
+
 </script>
 
 <template>

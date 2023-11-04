@@ -1,11 +1,13 @@
 <script setup lang="ts">
-defineProps<{
-  id: string
-}>()
+import Input from './Input.vue';
+
+
 </script>
 
 <template>
-  <input type="text" :id="id" :placeholder="id">
+  <div>
+    <Input id="name" />
+  </div>
 </template>
 
 <style lang="scss" scoped></style>

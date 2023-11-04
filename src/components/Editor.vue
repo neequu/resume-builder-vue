@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import InputHeading from './InputHeading.vue';
+import Section from './Section.vue';
+
 
 </script>
 
