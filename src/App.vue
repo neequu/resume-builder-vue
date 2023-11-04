@@ -5,10 +5,10 @@ import Resume from './components/Resume.vue';
 </script>
 
 <template>
-  <div class="flex h-full">
+  <main class="flex h-full">
     <Editor />
     <Resume />
-  </div>
+  </main>
 </template>
 
 <style>

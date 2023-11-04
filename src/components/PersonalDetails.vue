@@ -4,7 +4,7 @@ import { useDetailsStore } from '@/stores/resume'
 
 const { details } = useDetailsStore()
 
-const inputFields = new Set(['name', 'lastname', 'jobTitle', 'email', 'phone'])
+const inputFields = new Set(['name', 'lastname', 'jobTitle', 'email', 'phone', 'country', 'city'])
 </script>
 
 <template>
@@ -12,5 +12,3 @@ const inputFields = new Set(['name', 'lastname', 'jobTitle', 'email', 'phone'])
     <Input v-for="input in inputFields" :key="input" :id="input" :store="details" />
   </div>
 </template>
-
-<style lang="scss" scoped></style>

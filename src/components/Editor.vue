@@ -16,5 +16,3 @@ import Section from './Section.vue';
     <Section />
   </div>
 </template>
-
-<style lang="scss" scoped></style>

@@ -18,5 +18,3 @@ const sectionTitle = ref('')
     <textarea name="" id="" cols="30" rows="10" class="resize-none" placeholder="Description" />
   </section>
 </template>
-
-<style lang="scss" scoped></style>

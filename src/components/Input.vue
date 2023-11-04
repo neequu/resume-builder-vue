@@ -18,5 +18,4 @@ const handleChange = (e: Event) => {
   </div>
 </template>
 
-<style lang="scss" scoped></style>
 <!-- @input="e => store[id] = (e.target as HTMLInputElement).value" -->

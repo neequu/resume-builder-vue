@@ -5,11 +5,13 @@ export const useDetailsStore = defineStore(
   'details',
   () => {
     const details = ref({
-      name: 'zxc',
+      name: '',
       lastname: '',
       jobTitle: '',
       email: '',
       phone: '',
+      country: '',
+      city: '',
     });
 
     return { details };
