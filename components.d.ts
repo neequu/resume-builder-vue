@@ -7,6 +7,12 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Editor: typeof import('./src/components/Editor.vue')['default']
+    Form: typeof import('./src/components/Form.vue')['default']
     Hello: typeof import('./src/components/Hello.vue')['default']
+    Input: typeof import('./src/components/Input.vue')['default']
+    InputHeading: typeof import('./src/components/InputHeading.vue')['default']
+    Resume: typeof import('./src/components/Resume.vue')['default']
+    Section: typeof import('./src/components/Section.vue')['default']
   }
 }
