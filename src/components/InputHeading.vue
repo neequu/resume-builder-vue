@@ -11,5 +11,3 @@ defineProps<{
     <label :for="id">+</label>
   </div>
 </template>
-
-<style lang="scss" scoped></style>

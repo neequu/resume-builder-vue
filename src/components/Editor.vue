@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import InputHeading from './InputHeading.vue';
+import PersonalDetailsVue from './PersonalDetails.vue';
 import Section from './Section.vue';
 
 
@@ -11,6 +12,7 @@ import Section from './Section.vue';
       <InputHeading id="doc-title" />
       <button>English</button>
     </section>
+    <PersonalDetailsVue />
     <Section />
   </div>
 </template>

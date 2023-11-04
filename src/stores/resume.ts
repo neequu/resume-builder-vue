@@ -1,14 +1,18 @@
 import { ref, computed } from 'vue';
 import { defineStore } from 'pinia';
 
-export const useCounterStore = defineStore('counter', () => {
-  const personal = ref({
-    name: '',
-    lastname: '',
-    jobTitle: '',
-    email: '',
-    phone: '',
-  });
+export const useDetailsStore = defineStore(
+  'details',
+  () => {
+    const details = ref({
+      name: 'zxc',
+      lastname: '',
+      jobTitle: '',
+      email: '',
+      phone: '',
+    });
 
-  return { personal };
-});
+    return { details };
+  },
+  { persist: true }
+);
